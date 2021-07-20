@@ -1,0 +1,125 @@
+/* media queries */
+
+
+/* queries for larger screen */
+
+@media screen and (max-width:930px) and (min-width:749px) {
+    .post {
+        width: 80%;
+    }
+    .main-blog {
+        flex-basis: 60%;
+        margin-right: 1rem;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar-subscribe-form {
+        width: 100%;
+    }
+}
+
+
+/* ----(max-width:750px) and (min-width:560px) ----*/
+
+@media screen and (max-width:750px) and (min-width:560px) {
+    .nav,
+    .post {
+        width: 90%;
+        padding: 2rem;
+    }
+    .main-blog {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-links {
+        padding-left: 2rem;
+    }
+    .header-main {
+        height: 30vh;
+        margin: 1.0rem 0;
+    }
+    .sidebar {
+        flex-basis: 100%;
+    }
+    .sidebar-subscribe-form {
+        width: 100%;
+    }
+}
+
+
+/* ----(max-width:559px) and (min-width:420px) ----*/
+
+@media screen and (max-width:559px) and (min-width:420px) {
+    .nav,
+    .post {
+        width: 90%;
+        padding: 2rem;
+    }
+    .nav-items {
+        display: block;
+    }
+    .nav-links {
+        display: block;
+        margin: 0 0 1rem;
+    }
+    .main-blog {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .header-main {
+        height: 30vh;
+        margin: 1.0rem 0;
+    }
+    .sidebar {
+        flex-basis: 100%;
+    }
+    .sidebar-subscribe-form {
+        width: 100%;
+    }
+}
+
+
+/* ----queries for smaller screen ----*/
+
+@media (max-width:419px) {
+    .nav,
+    .post {
+        width: 90%;
+        padding: 2rem 0;
+        flex-flow: column;
+    }
+    .nav-links {
+        padding: .5rem;
+        font-size: 1.0rem;
+    }
+    .post {
+        padding-top: 0.3rem;
+    }
+    .main-blog {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .header-main {
+        height: 30vh;
+        margin: 1.0rem 0;
+    }
+    .header-intro {
+        font-size: 2rem;
+    }
+    .blog-cards {
+        margin: 2rem auto;
+    }
+    .sidebar-subscribe-form {
+        width: 100%;
+    }
+    .sidebar {
+        flex-basis: 100%;
+    }
+}
