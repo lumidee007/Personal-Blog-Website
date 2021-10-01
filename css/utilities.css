@@ -1,7 +1,11 @@
 /* Container styling*/
 
 .blog-wrapper {
-    grid-template-areas: 'nav nav nav nav' 'header header header header' 'cards cards cards cards' 'footer footer footer footer';
+    grid-template-areas: 
+    'nav nav nav nav' 
+    'header header header header' 
+    'cards cards cards cards' 
+    'footer footer footer footer';
 }
 
 .post-wrapper {
@@ -34,10 +38,11 @@
 .sidebar-subscribe-form--input {
     background-color: #a9a5eb;
     width: 100%;
-    padding: .5rem 0 .1rem;
+    padding: .9rem 0 .1rem;
     border: none;
-    font-size: 1rem;
+    font-size: .9rem;
     border-bottom: 2px solid #faeee7;
+    padding-left: 1rem;
 }
 
 .sidebar-subscribe-form--input:focus {
@@ -102,7 +107,7 @@
 }
 
 .blog-cards {
-    box-shadow: 1px 1px 7px rgb(88, 190, 57);
+    box-shadow: 2px 4px 5px #0026fd;
     padding: 1.0rem;
     flex-basis: 5%;
     border-radius: 5px;
@@ -110,7 +115,8 @@
 }
 
 .card-image {
-    border: 2px solid #0112f8;
+    border: none;
+    border-radius: 5px;
 }
 
 .cards-caption {
@@ -145,8 +151,9 @@
     word-spacing: 0.5rem;
     line-height: 1.8rem;
     margin-right: 2rem;
-    border: 2px solid #0112f8;
-    background-color: cornsilk;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(254, 255, 220);
     padding: 2rem;
 }
 
@@ -240,6 +247,10 @@
     font-size: 1.8rem;
 }
 
+.fab:hover {
+    color: rgb(0, 0, 0);
+}
+
 
 /* blockquote */
 
@@ -265,9 +276,10 @@ blockquote {
     flex-flow: row;
     justify-content: space-between;
     width: 90%;
+    font-weight: bold;
     margin: 0 auto;
-    padding: 2rem 5rem;
     align-items: center;
+    padding: 1px;
 }
 
 .nav-logo-link {
@@ -279,6 +291,10 @@ blockquote {
 
 .nav-list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .nav-items {
@@ -301,15 +317,14 @@ blockquote {
 
 .header-main {
     grid-area: header;
-    background: linear-gradient(to top right, #8a408a80, #FF851B);
+    background: linear-gradient(to top right, #BD25DF, #FF851B, #EA2B6A);
     width: 100%;
-    height: 30vh;
-    margin: 3rem auto;
+    margin: 1rem auto;
     text-align: center;
 }
 
 .header-intro {
-    padding: 4rem 0 2rem;
+    padding: 2rem 0 2rem;
     font-size: 3rem;
     font-family: 'Raleway', Helvetica;
     text-shadow: 2px 2px blue;
@@ -324,7 +339,7 @@ blockquote {
     text-align: center;
     padding: 2.5rem;
     margin: 0;
-    background: linear-gradient(to top right, #8a408a80, #FF851B);
+    background: linear-gradient(to top right, #BD25DF, #FF851B, #EA2B6A);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
     color: #000;
