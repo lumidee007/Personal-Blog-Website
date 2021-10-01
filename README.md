@@ -1,7 +1,6 @@
-# 1. Personal blog websites
+# Personal blog websites
 
-This is a simple personal blog website developed using HTML and CSS skills. This custom images, layout, and styling.
-
+This is a simple personal blog website including custom images, layout, and styling developed using HTML and CSS skills.
 
 ## Project Files
 - A blog website
